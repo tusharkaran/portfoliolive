@@ -1,0 +1,124 @@
+.eXnPVF {
+  max-width: 600px;
+  margin: 0px auto 100px;
+  text-align: center;
+}
+@media (max-width: 768px){
+.eXnPVF {
+    margin: 0px auto 50px;
+}
+}
+.eXnPVF .overline {
+  display: block;
+  margin-bottom: 20px;
+  color: #64ffda;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.overline {
+  color: #64ffda;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  font-size: var(--fz-md);
+  font-weight: 400;
+}
+.numbered-heading {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 0px 40px;
+  width: 100%;
+  font-size: clamp(26px,5vw,var(--fz-heading));
+  white-space: nowrap;
+}
+.eXnPVF .title {
+  font-size: clamp(40px, 5vw, 60px);
+  margin: 0px 0px 10px;
+    font-weight: 600;
+    color: #bbbbbb;
+    line-height: 1.1;
+}
+/* .eXnPVF .email-link {
+  color: var(--green);
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 1.25rem 1.75rem;
+  font-size: 14px;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  margin-top: 50px;
+} */
+
+
+.eXnPVF p{
+  color: #797979;
+}
+.form_contactme{
+  padding-top: 40px;
+}
+
+
+
+.iKeBGp {
+  display: none;
+}
+.iKeBGp ul a svg {
+  width: 20px;
+  height: 20px;
+}
+
+svg.feather {
+  fill: none;
+}
+.earxGk {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  min-height: 70px;
+  padding: 15px;
+  text-align: center;
+}
+@media (max-width: 1024px){
+.iKeBGp  {
+    display: block;
+    width: 100%;
+    max-width: 270px;
+    margin: 0px auto 10px;
+    color: #a8b2d1;
+}
+}
+
+
+.iKeBGp ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.iKeBGp ul a {
+  padding: 10px;
+}
+
+.iKeBGp a {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: var(--transition);
+}
