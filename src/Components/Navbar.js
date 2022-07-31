@@ -111,7 +111,7 @@ function Navbar() {
             transition={{duration:0.5 , delay: 0.4}}>
             <a   
               class="button-rotating Resume " 
-              onClick={closeMobileMenu}>
+              onClick={closeMobileMenu} href="/files/resume.pdf" download>
           <span></span>
           <span></span>
           <span></span>

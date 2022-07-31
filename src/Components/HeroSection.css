@@ -334,3 +334,7 @@ span:nth-child(10) {
       bottom: 100%;
   }
 }
+.data-product{
+  color: #64ffda;
+  text-decoration: underline;
+}

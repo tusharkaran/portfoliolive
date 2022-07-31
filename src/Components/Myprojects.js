@@ -2,8 +2,7 @@ import React , { useRef ,useEffect }from 'react';
 import './Myproject.css'
 import { motion } from 'framer-motion';
 import {useLocation} from 'react-router-dom';
-import * as Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 
 function Myprojects() {
@@ -14,26 +13,15 @@ function Myprojects() {
   const location = useLocation();
 
   useEffect(()=> {
-   
-    if (location?.state?.key) {
-    
-        let elem = document.getElementById('3');
-
-      
+    if (location?.state?.key) {  
         if (location?.state?.key) {
           refs.current[location?.state?.key].scrollIntoView({block: "center"});
         }
         else{
-window.scrollTo({top:0,left:0, behavior: "smooth"});
+        window.scrollTo({top:0,left:0, behavior: "smooth"});
         }
       }
-    
 }, [location,])
-
-
-
-
-  
 
   return (
 
@@ -63,7 +51,7 @@ window.scrollTo({top:0,left:0, behavior: "smooth"});
             </div>
           </div>
           <div class="project-img reverse-img">
-            <img src="images/manciniproject.jpg" alt="" />
+            <img src="/images/manciniproject.jpg" alt="" />
           </div>
         </div>
       </motion.div>
@@ -90,10 +78,12 @@ window.scrollTo({top:0,left:0, behavior: "smooth"});
             </div>
           </div>
           <div class="project-img reverse-img">
-            <img src="images/8085.jpg" alt="" />
+            <img src="/images/8085.jpg" alt="" />
           </div>
         </div>
       </motion.div>
+
+
       <motion.div class="project-container"   initial={{opacity:0 }}
             whileInView={{opacity:1 }}
             viewport={{once:true , amount:0.3}}
@@ -121,7 +111,7 @@ window.scrollTo({top:0,left:0, behavior: "smooth"});
             </div>
           </div>
           <div class="project-img">
-            <img src="images/aicd.jpg" alt="" />
+            <img src="/images/aicd.jpg" alt="" />
           </div>
 
         </div>

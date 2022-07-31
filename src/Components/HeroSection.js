@@ -96,44 +96,30 @@ function HeroSection() {
           <span>n</span>
         </div>
         <div class="Text-intro">Frontend Developer</div>
-        {/* <div  class="text-data">UI developer with a B.tech in Computer Engineering from Grapic Era University in Uttrakhand, specialized in Cloud Computing. At the moment, I'm employed at Tata Consultancy Services as a System Engineer</div> */}
+              
         <h1 class="abc">
-          <span>UI </span>
-          <span> </span>
-          <span>developer </span>
-          <span>B.tech </span>
-          <span> </span>
-          <span>in </span>
-          <span>Computer </span>
-          <span>Engineering </span>
-          <span>from </span>
-          <span>Graphic, </span>
-          <span>Era </span>
-          <span>University </span>
-          <span>in </span>
-          <span>Uttrakhand </span>
-          <span>,</span>
-          <span>specialized </span>
-          <span>in </span>
-          <span>Cloud </span>
-          <span>Computing. </span>
-          <span>At</span>
-          <span>the</span>
-          <span>moment</span>
-          <span>,</span>
-          <span>I</span>
-          <span>am</span>
-          <span>employed</span>
-          <span>at</span>
-          <span>Tata</span>
-          <span>Consultancy</span>
-          <span>Services</span>
-          <span>as</span>
-          <span>a</span>
-          <span>Frontend</span>
-          <span>Developer</span>
+          <span>I’m </span>
+          <span>software </span>
+          <span>engineer </span>
+          <span>specializing </span>
+          <span>building </span>
+          <span>exceptional </span>
+          <span>experiences. </span>
+          <span>Currently, </span>
+          <span>I’m </span>
+          <span>focused, </span>
+          <span>on </span>
+          <span>accessible, </span>
+          <span>human-centered </span>
+          <span>products </span>
+          <span >at </span>    
+            
+          <span class="data-product" >Tata </span>
+          <span class="data-product" >Consultancy </span>
+          <span class="data-product" >Services </span>
+        
         </h1>
-        <a class="button-rotating" href="/contact">
+        <a class="button-rotating" href="#contact-data">
           <span></span>
           <span></span>
           <span></span>

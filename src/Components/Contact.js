@@ -89,7 +89,7 @@ function Contact() {
 
 
   return (
-   <div class ="contact-event">
+   <div id="contact-data" class ="contact-event">
      <ul class= "form-value">
 
        <li class className={currentstep === 'email' || currentstep === 'message' ?'name-value showvalue' : 'name-value' }> 
