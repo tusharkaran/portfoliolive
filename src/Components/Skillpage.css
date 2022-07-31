@@ -130,3 +130,9 @@ ul.tool_software{
     text-align: center;
     padding-bottom: 7%;
   }
+  .data-skill{
+    padding-top: 0 !important;
+  }
+  .data-skill li{
+    color: #bbbbbb !important;
+  }
